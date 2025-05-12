@@ -1,0 +1,1054 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #055bb7b1;
+    position: fixed;
+    z-index: 999;
+}
+.logo {
+    height: 100%;
+    width: 150px;
+    margin-left: 100px;
+    float: left;}
+    img {
+        width: 100%;
+        padding: 15px;
+        height: 100%;
+    }
+
+.list {
+    font-size: 20px;
+    margin-right: 100px;
+    float: right;
+    line-height: 60px;
+}
+.list li {
+    display: inline-block;
+    list-style: 0;
+}
+.list li a {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    padding: 19px 20px;
+}
+.list li a:hover {
+    background-color: rgb(30, 95, 152);
+    border-bottom: solid 2px red;
+    transition: 1.1s ;
+}
+
+/*--------------------------------header2---------------------*/
+.header2 {
+    height: 80px;
+    width: 100%;
+    background-color: #055bb7b1;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    z-index: 990;
+    top: 60px;
+    opacity: 0;
+    transition: 1.2s ease-out;
+}
+.header2:hover {
+    opacity: 1;
+    transition: 1s ease;
+}
+.box-header2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.header2 div i {
+    font-size: 25px;
+    color: #ffff;
+    cursor: pointer;
+}
+.header2 input {
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 200px;
+    padding-left: 15px;
+    border: none;
+    outline: 0;
+    caret-color: red;
+}
+input:hover {
+    background-color: #f6f6f6bd;
+    outline: 0;
+}
+.icon-header2 {
+    margin-left: 50px;
+}
+.icon-header2 span {
+    color: #ffff;
+    padding-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+/*-------------------------------------------------header2------------------------------------*/
+.parint {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../burger/restrant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.ovarley {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content {
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.title1 {
+    font-size: 60px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content span {
+    font-size: 60px;
+    color: #cd0909;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content p {
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.btn {
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin-right: 15px;
+    background: rgb(74, 68, 68);
+    color: white;
+}
+.btn2 {
+    background-color:darkblue;
+    color: #fff;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.btn a:hover{
+    color: red;
+}
+
+/*----------------------------------------icon-------------------------------*/
+.icon-fixed {
+    width: 25%;
+    height: 100px;
+    position: fixed;
+    right: -400px;
+    top: 50%;
+    background-color: #257174dd;
+    transition: 1s;
+    z-index: 300;
+    font-size: 30px;
+    margin-left: 100px;
+   
+}
+.icon-fixed:hover {
+    right: 0;
+}
+.icons-heart{
+    margin-left: 50px;
+    padding-left:  10px;
+}
+.icon-fixed .active {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #13a1a1;
+    position: fixed;
+    right: 0;
+    top: 54%;
+    border-radius: 50%;
+    padding: 10px;
+    color: #060606;
+    font-size: 25px;
+    cursor: pointer;
+}
+.icon-fixed .active:hover{
+    color: #cd0909;
+}
+/*===================================sec2======================]*/
+.sec2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.title{
+    font-size: 50px;
+    padding: 100px 0 0 0;
+    text-align: center;
+    color: #13a1a1;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.line{
+    width: 170px;
+    height: 4px;
+    background-color: #13a1a1;
+    border-radius: 50%;
+    margin: 0 0 100px 45%;
+    
+}
+.offer {
+    width: 90%;
+    height: 300px;
+    background-color: rgba(152, 147, 147, 0.9);
+    border-right: 4px rgb(0, 255, 255) solid;
+    border-left: 4px rgb(0, 255, 255) solid;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    position: relative;
+    transition: 4s;
+}
+.offer:hover {
+    background-color: rgba(164, 192, 197, 0.9);
+}
+.offer:hover::before {
+    width: 100%;
+    height: 8px;
+}
+.offer:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 8px;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 255, 255);
+    transition: 2s ease-in-out;
+}
+.offer::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 8px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 255, 255);
+    opacity: 0;
+    transition: 2s ease;
+}
+.offer:hover::after {
+    width: 100%;
+    height: 8px;
+    opacity: 0.9;
+}
+.offer-box {
+    width: 25%;
+    height: 200px;
+    border: 0;
+    background-image: url(../burger/offer.png);
+    background-size: cover;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    margin:auto;
+    z-index: 25;
+}
+.offer-box:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+.offer-box::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0;
+    transition: 1s;
+}
+.cover {
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+.cover i {
+    padding: 14px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+   
+.offer-box p {
+    font-size: 20px;
+    margin: 10px 0 11px 0;
+   
+}
+.offer a {
+    text-decoration: none;
+    color: rgb(252, 8, 8);
+    font-weight: 900;
+}
+.offer ul {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+.offer ul li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    list-style: none;
+    margin-left: 200px;
+}
+.offer ul .li2{
+    margin: 0 200px 0 470px;
+}
+/*------------------------------------------sec3-------------------------*/
+
+.container{
+  width: 90%;
+  height: 80vh;
+  margin-left: 7%;
+}
+.parent-ser{
+    width: 100%;
+    height: 100%;
+   
+}
+.ser--1{
+    width: 25%;
+    height: 250px;
+   position: relative;
+   float: left;
+   margin: 0 0 50px 5% ;
+}
+.ser--1 ul li{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+     border-radius: 50% ;
+     border: 1px solid black;
+     z-index: 5;
+}
+.ser--1 ul .li-1{
+     font-size: 25px;
+     color: gray;
+     position: absolute;
+     top: 40px;
+     left: 20px;
+     z-index: 5;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: white;
+     border: 1px solid gray;
+     text-align: center;
+     padding: 5px;
+}
+.ser--1 ul .li-1:hover{
+    color: red;
+}
+.ser--1 ul .active{
+    margin-left: 400px;
+    width: 50px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    position: absolute;
+    left: -120px;
+}
+.ser--1 .oreylay-ser{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    background-color: #082e31;
+    border-radius: 30px;
+    opacity: 0;
+    transition: 2s;
+} 
+.ser--1 .oreylay-ser:hover{
+    opacity: .7;
+}
+.ser--1 .oreylay-ser .text-ser{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.ser--1 .oreylay-ser .text-ser h3{
+    font-size: 30px;
+    color: orange;
+    background-color: #000000;
+    width: 50%;
+    border-radius: 20px;
+    margin: 0 0 20px 24%;
+    z-index: 3;
+}
+.ser--1 .oreylay-ser .text-ser p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ser--1 .oreylay-ser .text-ser i{
+    font-size: 20px;
+    color: orange;
+}
+/* =================================sec-4============================================= */
+.parent-4{
+    width: 85%;
+    margin: auto;
+    height: 79vh;
+    position: relative;
+}
+.parent-4 .parent-card{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(215, 201, 201);
+    border-top: 3px solid blue;
+    position: relative;
+    float: left;
+    margin: 0 0 60px 3%;
+}
+.parent-4 .parent-card i{
+    font-size: 40px;
+    margin: 20px 10px 0 20px;
+}
+.parent-4 .parent-card span{
+    font-size: 30px;
+}
+.parent-4 .parent-card p{
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+    margin-left: 50px;
+}
+.parent-4 .parent-card:hover p{
+    color:gold;
+}
+
+.parent-card::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-image: url(../burger/newburger\ \(2\).jpeg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    transition: .7s;
+} 
+.parent-card:hover::after{
+    width:100%;
+    height:100%;
+    transition: .9s;
+} 
+
+.parent-4 .parent-card .Card{
+    z-index: 3;
+    position: relative;
+}
+
+
+/* ========================================section-5=============================================== */
+
+ .menu{
+    margin-top: 50px;
+    
+} 
+
+.menu .parent-menu{
+    padding: 60px;
+    background-color:#055bb7b1;
+    overflow: auto;
+    /* width: 100%; */
+    /* margin-top: 100px; */
+}
+   
+.menu .parent-menu .box {
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin-top: 120px ;
+    margin-right: 350px;
+}
+ 
+.menu .parent-menu .box h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.menu .parent-menu .box hr {
+    width: 170px;
+    height: 6px;
+    background-color:white;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.menu .parent-menu .box > p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.menu .parent-menu .box p span {
+    color:white;
+}
+.menu .parent-menu .box .text {
+    margin-top: 30px;
+}
+.menu .parent-menu .box .text p {
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+}
+.menu .parent-menu .box .text p i {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0b6b6b;
+    margin-right: 10px;
+    padding: 3px;
+    color: 055bb7b1#fff;
+    font-size: 10px;
+}
+.menu .parent-menu .image-box img {
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
+    margin-top: 90px
+}
+.menu .parent-menu .image-box ul {
+    margin-left: 150px;
+    margin-top: 15px;
+    background-color: white;
+}
+.menu .parent-menu .image-box ul li:hover, .features .parent-menu .image-box ul .active {
+    background-color: #016969;
+    cursor: pointer;
+}
+.div-circel{
+    margin:20px 0 0 1000px;
+}
+.div-circel div {
+    background-color: #bdd4d5;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 6px;
+}
+.div-circel div:hover{
+    background-color: #016969;
+}
+.div-circel .circel-1{
+    background-color: rgb(3, 3, 79);
+}
+/* ===========================================================section-6-========================================================== */
+.background{
+background-image: url(../burger/resturant.jpeg); 
+width: 100%;
+height: 400px;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 5% 0 10%;
+background-attachment: fixed;
+background-position:  0, 5px; 
+}
+    
+.background .overlay{
+background-color: rgba(0,0,0,0.5);
+height: 100%;
+}
+    
+.background-chaps{
+text-align: center;
+}
+    
+.background i{
+font-size: 50px;
+color: #3a7afc;
+margin-bottom: 15px;
+}
+
+.background i:hover{
+color: red;
+transition: 0.5s;
+        }
+
+.background-item{
+float: left;
+margin-left: 15%;
+margin-top: 150px;
+}
+    
+.background-item h1{
+color: white;
+margin-bottom: 15px;
+}
+    
+.background-item p{
+color: white;
+font-size: 17px;
+}
+/* ======================================================section-7-=============================================== */
+.offerrs .line{
+width: 10%;
+}
+    
+.offerrs{
+width: 100%;
+margin-top: -100px;
+}
+    
+.offerrs-poto{
+width: 100%;
+height: 50vh;   
+margin: 5% 0;   
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;  
+}
+    
+.offerrs-contant{
+width: 100%;
+font-weight: bold;
+}
+
+.offerrs-item{
+width: 25%;
+height: 400px;
+float: left;
+text-align: center;
+margin: 5% 0 0 8%;
+border-bottom: 3px solid #6195ff;
+background-size: cover;
+position: relative;
+}
+    
+.offerrs-item::after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 0;
+background-color: rgba(0, 0, 0,0.9 );
+transition: 1s;
+}
+
+.offerrs-item:hover::after{
+width: 100%;
+height: 100%;
+}
+
+.offerrs-info{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 5;
+}
+     
+.ltr{
+margin: 5% -3% 0 5%;
+}
+    
+.offerrs-title{     
+font-weight: bold;
+font-size: 25px;
+margin: 25px 0;
+text-transform: uppercase;
+color:rgb(76, 76, 216);  
+}
+    
+.offerrs-item img{
+width: 100%;
+height: 100%;
+}
+
+.offerrs-border{
+width: 100px;
+height: 100px;
+border: 3px solid ;
+border-color: white #0069fd white #0069fd;
+padding: 20px;
+border-radius: 50%;
+margin: auto;
+color: white;
+}
+    
+.offerrs-item ul{
+list-style: none;
+margin: 20px 0 30px 0;
+line-height: 30px;
+text-transform: capitalize;
+color: rgb(255 255 255);  
+}
+
+.offerrs-item:hover ul{
+color:blue;
+transition: 4s;
+}
+
+.offerrs-item button{
+width: 50%;
+padding: 15px;
+background-color: #3a7afc;
+border: 1px solid #00fff268;
+color: white;
+text-transform: capitalize;
+font-weight: bold;
+border-radius: 10px;
+transition: 1s; 
+}
+
+.offerrs-item button:hover{
+border-radius: 50px;
+width: 60%;
+background-color: lawngreen;
+color: black;
+}
+/* ==========================================section-8-============================== */
+.prices{
+width: 100%;
+height: 60vh;
+background-image: url(../burger/bgfixed.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin-top: 200px;
+} 
+/******** start prices-item ********/
+.prices-item{
+width: 50%;
+float: left;
+transform: translate(0, 50%);
+position: relative;
+margin-top: 8%;
+}
+   
+.prices-item h1,
+.prices-item p{
+color: white;
+width: 75%;
+}
+   
+.prices-item h3{
+color: #3a7afc;
+text-transform: uppercase;
+margin-top: 10px;
+} 
+   
+.prices-item img{
+border-radius: 50%;
+position: absolute;
+top: -15px;
+left: 80px;
+width: 100px;
+height: 100px;
+ border: 2px solid red;
+}
+
+.prices-item p{
+margin-top: 20px;
+}
+
+.prices-title{
+margin-left: 33%;
+}
+/* =============================================================section-9-==================================================== */
+processor{
+width: 100%;
+height: 80vh;
+background-color: #f3f3f3;
+margin: 5% 0;
+overflow: hidden;
+}
+
+.processor-item{
+display: inline-block;
+width: 30%;
+background-color: #64717ce8;
+padding: 14px 14px;
+text-align: center;
+position: relative;
+border-radius: 10px;
+margin-top: 5%;
+}
+
+.ptr{
+margin: 0 4.5%;
+}
+
+.processor-img{
+position: relative;
+z-index: 5;
+}
+
+.processor-img img{
+width: 100%;
+height: 250px;
+}
+
+.processor-overlay{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+ background-color: rgba(0, 0, 0,0.6);
+opacity: 0;
+visibility: hidden;
+transition: 2s;
+z-index: 5; 
+}
+
+.processor-item:hover .processor-overlay{
+opacity: 1;
+visibility: visible;
+}
+
+.btts-color::after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 0;
+background-color: rgb(37, 72, 99);
+transition: 2s;
+border-radius: 10px;
+opacity: 0.5;
+}
+
+.btts-color:hover:after{
+width: 100%;
+height: 100%;
+}
+
+.btts-color::before{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 0;
+background-color:rgba(0, 0, 0,0.6);
+transition: 2s;
+border-radius: 10px;
+}
+    
+.btts-color:hover::before{
+width: 100%;
+height: 100%; 
+}
+
+.processor-overlay a{
+display: block;
+width: 40px;
+height: 40px;
+background-color: #3a7afc;
+color: white;
+margin-left: auto;
+font-size: 20px;
+border-radius: 50%;
+margin-top: 7px;
+margin-right: 5px;
+}
+
+.processor-overlay a i{
+line-height: 40px;
+}
+
+.processor-text{
+color: white;
+padding: 5px;
+z-index: 100;
+}
+
+.processor-test h2{
+text-transform: capitalize;
+padding: 6px;
+color: white;
+}
+
+.processor-item:hover .processor-test h2{
+  color: gold;
+  transition: 3s;
+}
+
+.processor-test p{
+color: rgb(120, 238, 238);
+text-transform: uppercase;
+} 
+/* ==============================================================section-10-=========================================== */
+
+.section12{
+    width: 100%;
+    height: 100vh;
+    background-color: #1C1C1C;
+    padding: 1px;
+}
+
+.sec12-content,.sec12-image2{
+    float: left;
+    
+}
+
+.sec12-content{
+    width: 50%;
+}
+
+.sec12-parent{
+    margin-top: 150px;
+}
+
+.sec12-image2{
+    width: 40%;
+    margin-left: 10%;
+    height: 450px;
+}
+
+.div1 img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 55px;
+}
+.sec12-image1{
+    margin-left: 5%;
+}
+
+.container-sec12{
+    width: 80%;
+    margin: auto;
+}
+
+.sec12-content h2{
+    color: white;
+    font-size: 450%;
+    width: 150px;
+    font-weight: bolder;
+    padding: 70px 20px;
+}
+.sec12-content input{
+    background-color: #1C1C1C;
+    border: 1px solid white;
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+}
+
+.sec12-content button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    left: 420px;
+    bottom: 40px;
+}
+
+.sec12-content button:hover{
+    background-color: #1C1C1C;
+    color: wheat;
+    border: 0.5px solid white;
+}
+/* ===========================================================footer================================================= */
+.footer{
+height: 360px;
+width: 100%;
+text-align: center;
+padding-top: 40px;
+background-color: #0069fd;
+}
+
+.footer-img img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
+
+.footer-contant a i{
+font-size: 20px;
+width: 50px;
+height: 50px;
+background-color: #6195ff;
+border-radius: 50%;
+line-height: 50px;
+margin-left: 15px;
+display: inline-block;
+position: relative;
+}
+
+.footer-contant a i::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+border: 2px solid white;
+border-radius: 50%;
+transition: 1s;
+width: 0;
+height: 0;
+opacity: 0;
+}
+
+.footer-contant a i:hover::after{
+width: 48px;
+height: 48px;
+opacity: 1;
+}
+
+.footer h3{
+margin-top: 30px;
+}
